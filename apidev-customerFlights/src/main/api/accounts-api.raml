@@ -1,6 +1,5 @@
 #%RAML 1.0
 title: Accounts API
-baseUri: /api
 types:
   Account: !include datatypes/account.raml
   AccountNoID: !include datatypes/AccountNoID.raml
@@ -132,7 +131,7 @@ types:
         body:
           application/json:
             example: {
-               "message": "Error creating accounts. Please check the JSON object and make sure it's valid ssssssss."
+               "message": "Error creating accounts. Please check the JSON object and make sure it's valid."
              }
 
 
